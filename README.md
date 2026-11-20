@@ -1,26 +1,28 @@
 # OS Final — AITU
 
-Простой сайт для подготовки к финальному экзамену по Operating Systems на основе NDG Linux Essentials.
+[Open the study website](https://fara1009.github.io/aitu-os-final/)
 
-- 18 конспектов по лекциям, с английскими терминами и ссылками на материалы курса.
-- 427 тренировочных вопросов: один ответ, несколько ответов и короткий ввод.
-- 68 практических заданий по 14 лабораторным работам.
-- Оригинальный PDF-семпл: 25 тестовых и 5 открытых вопросов с учебным разбором.
-- Тренировка по разделам, пробный тест, повтор ошибок и сохранённые вопросы.
+A simple, entirely English study website for the Operating Systems final, based on NDG Linux Essentials.
 
-## Запуск
+- 18 chapter summaries with links to the course materials.
+- 427 practice questions: single choice, multiple answers, and short answers.
+- 68 practice tasks from 14 labs.
+- Original exam sample PDF: 25 multiple-choice and 5 open questions with study explanations.
+- Chapter practice, mock exams, mistake review, and saved questions.
 
-Откройте `index.html` в браузере. Сборка, установка библиотек и сервер не требуются. Для публикации на GitHub Pages используйте ветку `main` и папку `/ (root)`.
+## Run locally
 
-Прогресс хранится только в браузере через localStorage и не синхронизируется между устройствами или разными адресами сайта.
+Open index.html in a browser. No build, dependency installation, or server is required. GitHub Pages uses the main branch and repository root.
 
-## Файлы
+Progress is stored in browser localStorage and does not sync between devices or site addresses. Completed answers, saved questions, and studied chapter marks are retained when the language changes. Unfinished attempts are translated while preserving their shuffled choice order and selected answers.
 
-- `index.html`, `style.css`, `app.js` — интерфейс и логика.
-- `content.js` — конспекты, практические задания и банк вопросов.
-- `sample.js` — вопросы семпла и учебные объяснения.
-- `exam-sample.pdf` — предоставленный образец экзамена.
+## Files
 
-Сайт предназначен для самостоятельной подготовки. Новые вопросы не являются официальными экзаменационными заданиями; объяснения семпла не являются официальным ключом преподавателя. В открытом вопросе 3 оригинального PDF отсутствует указанный в условии вывод `ls -l`; на сайте это отмечено.
+- index.html, style.css, app.js — interface and quiz logic.
+- content.js — chapter notes, lab tasks, and question bank.
+- sample.js — sample questions and study explanations.
+- exam-sample.pdf — the provided original exam sample.
 
-Исходные материалы курса и PDF принадлежат их соответствующим правообладателям. Этот репозиторий не предоставляет отдельной лицензии на эти материалы.
+This is a self-study tool. New questions are not official exam questions; sample explanations are not an official instructor answer key. Open question 3 in the original PDF is missing the referenced ls -l output; the website explicitly notes this.
+
+The source course materials and PDF belong to their respective rights holders. This repository does not grant a separate license to those materials.
